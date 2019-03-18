@@ -10,7 +10,7 @@ class Song
   end
 
   def artist_name
-    unless self.artist.name nil
+    self.artist.name
   end
 
   def all
